@@ -176,17 +176,21 @@ header{
     padding-right: 18px;
 }
 
-.right-section a{
-    padding-right: 18px;
-    text-decoration: none;
-    color: var(--main-color);
+.btn {
+        position: relative;
+        background-color: var(--main-color);
+        color: #ffffff;
+        border-radius: 25px;
+        padding: 15px;
+        font-size: 15px;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+      }
 
-}
-
-.right-section a:hover{
-    color: #eee;
-    width: 26px;
-}
+      .btn:hover {
+        color: var(--main-color);
+        background-color: #ffffff;
+      }
 
 .header-avatar{
     width: 24px;
