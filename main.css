@@ -177,7 +177,6 @@ header{
 }
 
 .btn {
-        position: relative;
         background-color: var(--main-color);
         color: #ffffff;
         border-radius: 25px;
